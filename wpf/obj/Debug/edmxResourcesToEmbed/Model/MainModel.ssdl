@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище zozoDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="IdAppointment" />
+    </Key>
+    <Property Name="IdAppointment" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="IdParrentAppointments" Type="int" />
+    <Property Name="ReferralText" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IdPatient" Type="int" Nullable="false" />
+    <Property Name="IdDoctor" Type="int" Nullable="false" />
+    <Property Name="Diagnosis" Type="nvarchar" MaxLength="100" />
+    <Property Name="PastAndConcurrentIllnesses" Type="nvarchar" MaxLength="100" />
+    <Property Name="DevelopmentRealDisease" Type="nvarchar" MaxLength="100" />
+    <Property Name="ObjectiveResearchData" Type="nvarchar" MaxLength="100" />
+    <Property Name="Bite" Type="nvarchar" MaxLength="100" />
+    <Property Name="ConditionCavity" Type="nvarchar" MaxLength="100" />
+    <Property Name="DataXrayStudies" Type="nvarchar" MaxLength="200" />
+    <Property Name="Treatment" Type="nvarchar" MaxLength="200" />
+    <Property Name="TreatmentResults" Type="nvarchar" MaxLength="200" />
+    <Property Name="Instructions" Type="nvarchar" MaxLength="100" />
+    <Property Name="IdheadsDepartment" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Diseases">
+    <Key>
+      <PropertyRef Name="IdDisease" />
+    </Key>
+    <Property Name="IdDisease" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DescriptionDisease" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IdUser" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OralCavity">
+    <Key>
+      <PropertyRef Name="IdOralCavity" />
+    </Key>
+    <Property Name="IdOralCavity" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AppointmentsId" Type="int" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Value" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="idUser" />
+    </Key>
+    <Property Name="idUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Lastname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Firstname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Sex" Type="int" />
+    <Property Name="Geolocation" Type="nvarchar" MaxLength="100" />
+    <Property Name="Telephon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Profession" Type="nvarchar" MaxLength="100" />
+    <Property Name="Status" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_appointments_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="idUser" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="IdPatient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_diseases_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Diseases" Type="Self.Diseases" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="idUser" />
+      </Principal>
+      <Dependent Role="Diseases">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_oralCavity_appointments">
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="OralCavity" Type="Self.OralCavity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="IdAppointment" />
+      </Principal>
+      <Dependent Role="OralCavity">
+        <PropertyRef Name="AppointmentsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище zozoDBModelContainer">
+    <EntitySet Name="Appointments" EntityType="Self.Appointments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Diseases" EntityType="Self.Diseases" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OralCavity" EntityType="Self.OralCavity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_appointments_Users" Association="Self.FK_appointments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_diseases_Users" Association="Self.FK_diseases_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Diseases" EntitySet="Diseases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_oralCavity_appointments" Association="Self.FK_oralCavity_appointments">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="OralCavity" EntitySet="OralCavity" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

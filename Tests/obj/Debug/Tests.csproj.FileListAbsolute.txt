@@ -1,0 +1,70 @@
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Tests.dll.config
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Tests.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Tests.pdb
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\wpf.exe
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\wpf.pdb
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\wpf.exe.config
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\Zozo-master\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Zozo-master\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Zozo-master\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Users\User\Desktop\Zozo-master\Tests\obj\Debug\Tests.dll
+C:\Users\User\Desktop\Zozo-master\Tests\obj\Debug\Tests.pdb
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Tests.dll.config
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Tests.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Tests.pdb
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\EntityFramework.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\wpf.exe
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\wpf.pdb
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\wpf.exe.config
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\EntityFramework.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\EntityFramework.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\obj\Debug\Tests.csproj.Up2Date
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\obj\Debug\Tests.dll
+D:\OSPanel\domains\С#\АРМ стоматолога\Zozo-master\Zozo-master\Tests\obj\Debug\Tests.pdb

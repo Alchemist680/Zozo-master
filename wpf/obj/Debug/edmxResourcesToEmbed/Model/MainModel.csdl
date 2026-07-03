@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="zozoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Diseases">
+    <Key>
+      <PropertyRef Name="IdDisease" />
+    </Key>
+    <Property Name="IdDisease" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DescriptionDisease" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_diseases_Users" FromRole="Diseases" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="idUser" />
+    </Key>
+    <Property Name="idUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Lastname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Firstname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Sex" Type="Int32" />
+    <Property Name="Geolocation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Telephon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Profession" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Diseases" Relationship="Self.FK_diseases_Users" FromRole="Users" ToRole="Diseases" />
+    <NavigationProperty Name="Appointments" Relationship="zozoDBModel.FK_appointments_Users" FromRole="Users" ToRole="Appointments" />
+  </EntityType>
+  <Association Name="FK_diseases_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Diseases" Type="Self.Diseases" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="idUser" />
+      </Principal>
+      <Dependent Role="Diseases">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="zozoDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Diseases" EntityType="Self.Diseases" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_diseases_Users" Association="Self.FK_diseases_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Diseases" EntitySet="Diseases" />
+    </AssociationSet>
+    <EntitySet Name="Appointments" EntityType="zozoDBModel.Appointments" />
+    <AssociationSet Name="FK_appointments_Users" Association="zozoDBModel.FK_appointments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <EntitySet Name="OralCavity" EntityType="zozoDBModel.OralCavity" />
+    <AssociationSet Name="FK_oralCavity_appointments" Association="zozoDBModel.FK_oralCavity_appointments">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="OralCavity" EntitySet="OralCavity" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="IdAppointment" />
+    </Key>
+    <Property Name="IdAppointment" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IdParrentAppointments" Type="Int32" />
+    <Property Name="ReferralText" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IdPatient" Type="Int32" Nullable="false" />
+    <Property Name="IdDoctor" Type="Int32" Nullable="false" />
+    <Property Name="Diagnosis" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PastAndConcurrentIllnesses" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DevelopmentRealDisease" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ObjectiveResearchData" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Bite" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ConditionCavity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DataXrayStudies" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Treatment" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TreatmentResults" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Instructions" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IdheadsDepartment" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="zozoDBModel.FK_appointments_Users" FromRole="Appointments" ToRole="Users" />
+    <NavigationProperty Name="OralCavity" Relationship="zozoDBModel.FK_oralCavity_appointments" FromRole="Appointments" ToRole="OralCavity" />
+  </EntityType>
+  <Association Name="FK_appointments_Users">
+    <End Type="zozoDBModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="zozoDBModel.Appointments" Role="Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="idUser" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="IdPatient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="OralCavity">
+    <Key>
+      <PropertyRef Name="IdOralCavity" />
+    </Key>
+    <Property Name="IdOralCavity" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AppointmentsId" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Appointments" Relationship="zozoDBModel.FK_oralCavity_appointments" FromRole="OralCavity" ToRole="Appointments" />
+  </EntityType>
+  <Association Name="FK_oralCavity_appointments">
+    <End Type="zozoDBModel.Appointments" Role="Appointments" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="zozoDBModel.OralCavity" Role="OralCavity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="IdAppointment" />
+      </Principal>
+      <Dependent Role="OralCavity">
+        <PropertyRef Name="AppointmentsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

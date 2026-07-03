@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\controllers\\appoitmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\controllers\\appoitmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|d:\\ospanel\\domains\\\u0441#\\\u0430\u0440\u043C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\zozo-master\\zozo-master\\wpf\\model\\mainmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\model\\mainmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\model\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\model\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|d:\\ospanel\\domains\\\u0441#\\\u0430\u0440\u043C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\zozo-master\\zozo-master\\wpf\\views\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\views\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\views\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\views\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\views\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\views\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\views\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{60DAE25A-2204-4E13-97B9-47B1B75843B9}|wpf\\wpf.csproj|solutionrelative:wpf\\views\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\tests\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|solutionrelative:tests\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\tests\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{69F2B5CC-B877-466B-80A4-AB62DEBFC501}|Tests\\Tests.csproj|solutionrelative:tests\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Model\\MainModel.edmx",
+              "RelativeDocumentMoniker": "wpf\\Model\\MainModel.edmx",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Model\\MainModel.edmx [Diagram1]",
+              "RelativeToolTip": "wpf\\Model\\MainModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-07-02T17:26:58.867Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "wpf\\Views\\Pages\\AppointmentPage.xaml",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "wpf\\Views\\Pages\\AppointmentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-02T17:23:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAtwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppoitmentsController.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Controllers\\AppoitmentsController.cs",
+              "RelativeDocumentMoniker": "wpf\\Controllers\\AppoitmentsController.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Controllers\\AppoitmentsController.cs",
+              "RelativeToolTip": "wpf\\Controllers\\AppoitmentsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAzwHsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:24.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "wpf\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "wpf\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAqwJgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:24.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "wpf\\Views\\Pages\\MainPage.xaml",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "wpf\\Views\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-02T17:23:24.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpf\\MainWindow.xaml",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\MainWindow.xaml",
+              "RelativeToolTip": "wpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-02T17:23:24.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentPage.xaml.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeDocumentMoniker": "wpf\\Views\\Pages\\AppointmentPage.xaml.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeToolTip": "wpf\\Views\\Pages\\AppointmentPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH\u002BSURBVDhP7ZRPaNNQHMe/TdNma2NrW1jUFYZYN0YKHqZischAMCCjh94siEfp0buIeBZ2LYKXHvSWQ4toDkKC0F7EU93NQyEthkFnG9uuaf6YhIcusknBHTz4gR\u002B/x\u002B/7e1/ee8l7IRzhmbi3s0TTzc3zcYQpp3R3K9sk0sJQJPtscgmcSzJ4\u002BeErPvemj99\u002B6t0j0sKEcF96SsbgV\u002BOX\u002BQvxyvu9A9zaSOL2\u002BrK8Zn9R6vU66QBomkYul0OpVNJns9mLYrGoE8mHhhPaImNoI4Nboikcmjb29TkYOr6dZtPbPM\u002BTDmAwGGAymaDb7Q44jttvt9tSoVDQiOyu8AhvPqo7\u002BqHVfP5OReXGCgQ\u002BiRU2BMMwSAcgSZIfiUQC5XIZLMs\u002BSKVSYj6f/\u002B7pgTPs9CbofTPw6E4WQj6JTAyYz\u002BdE/YXjONB1HaIoQtO03el0\u002BpBIQcPrq6Ybbr64jLOMA8e2/MnHYds2RqMR3C2nG43GGVJGmGSfm1evrI8PtMqltSzoMOVPOo5MJuN/GC/6/T5UVVU6nY7saYEVyrKMVquF8Xh8oplnIgjCz/DMTdMk6m\u002BGlmX5Z3bSNhchYHga/Df8e/59Q5pkn2g0CoqioCgKGIYh1T8zHA4Ri7mXnhB4barV6jX3hjzxmryffBG8VycSibyu1WqvSOk0AX4A4Q67Z\u002BxJ14gAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-07-02T17:23:24.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Core.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Model\\Core.cs",
+              "RelativeDocumentMoniker": "wpf\\Model\\Core.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Model\\Core.cs",
+              "RelativeToolTip": "wpf\\Model\\Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:24.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "wpf\\Views\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\wpf\\Views\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "wpf\\Views\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH\u002BSURBVDhP7ZRPaNNQHMe/TdNma2NrW1jUFYZYN0YKHqZischAMCCjh94siEfp0buIeBZ2LYKXHvSWQ4toDkKC0F7EU93NQyEthkFnG9uuaf6YhIcusknBHTz4gR\u002B/x\u002B/7e1/ee8l7IRzhmbi3s0TTzc3zcYQpp3R3K9sk0sJQJPtscgmcSzJ4\u002BeErPvemj99\u002B6t0j0sKEcF96SsbgV\u002BOX\u002BQvxyvu9A9zaSOL2\u002BrK8Zn9R6vU66QBomkYul0OpVNJns9mLYrGoE8mHhhPaImNoI4Nboikcmjb29TkYOr6dZtPbPM\u002BTDmAwGGAymaDb7Q44jttvt9tSoVDQiOyu8AhvPqo7\u002BqHVfP5OReXGCgQ\u002BiRU2BMMwSAcgSZIfiUQC5XIZLMs\u002BSKVSYj6f/\u002B7pgTPs9CbofTPw6E4WQj6JTAyYz\u002BdE/YXjONB1HaIoQtO03el0\u002BpBIQcPrq6Ybbr64jLOMA8e2/MnHYds2RqMR3C2nG43GGVJGmGSfm1evrI8PtMqltSzoMOVPOo5MJuN/GC/6/T5UVVU6nY7saYEVyrKMVquF8Xh8oplnIgjCz/DMTdMk6m\u002BGlmX5Z3bSNhchYHga/Df8e/59Q5pkn2g0CoqioCgKGIYh1T8zHA4Ri7mXnhB4barV6jX3hjzxmryffBG8VycSibyu1WqvSOk0AX4A4Q67Z\u002BxJ14gAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-07-02T17:23:24.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\packages.config",
+              "RelativeDocumentMoniker": "Tests\\packages.config",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\packages.config",
+              "RelativeToolTip": "Tests\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-02T17:23:24.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\App.config",
+              "RelativeDocumentMoniker": "Tests\\App.config",
+              "ToolTip": "D:\\OSPanel\\domains\\\u0421#\\\u0410\u0420\u041C \u0441\u0442\u043E\u043C\u0430\u0442\u043E\u043B\u043E\u0433\u0430\\Zozo-master\\Zozo-master\\Tests\\App.config",
+              "RelativeToolTip": "Tests\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-02T17:23:24.699Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
